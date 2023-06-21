@@ -12,3 +12,9 @@ ereg_replace
 eregi_replace
 split
 spliti
+
+
+Pro Tip!
+
+In your php.ini You can set auto_prepend_file setting and this will automaticly be included on any scripts on the server.
+auto_prepend_file =  /var/www/pathtofile/phplegacy-helper.php
